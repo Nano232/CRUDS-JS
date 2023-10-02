@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #353434;
+}
+.container .scroll{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.container .content{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.container .content .heading{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.container .content input{
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius:5px;
+}
+.container .content .price{
+    display: flex;
+    justify-content: space-between;
+}
+.container .content .price input{
+    margin-right: 5px;
+}
+.container .content .price span{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.container .content .price span::before{
+    content: 'total: ';
+}
+.container .content .input button{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.container .content .input button:hover{
+    background-color: rgb(109, 12, 200);
+}
+.container .content .output .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.container .content .output .btn button{
+    height: 30px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    margin: 5px 0;
+}
+.container .content .output .btn button:hover{
+    background-color: rgb(109, 12, 200);
+}
+.container .content .output table{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+}
+th, td{
+    padding: 5px 0;
+}
+.container .content .output table button{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container .content .output table button:hover{
+    background-color: rgb(109, 12, 200);
+}
+#deleteAll button{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#deleteAll button:hover{
+    background-color: rgb(109, 12, 200);
+}
